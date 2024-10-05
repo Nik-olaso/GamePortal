@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Roboto Slab", serif;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    height: fit-content;
+    background-color: #c11515;
+    box-sizing: content-box;
+}
+
+.sticky__nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 0px;
+    transition: all ease-in-out 0.3s;
+}
+
+.sticky__nav a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20px;
+    height: 220px;
+    text-align: center;
+    background-image: url("background.png");
+}
+
+.footer__title {
+    padding-top: 60px;
+}
+
+.footer__text {
+    margin-top: 20px;
+}
+
+.footer__button {
+    display:inline-block;
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #000;
+    border: none;
+    position: relative;
+    transition: all .3s;
+    z-index: 1;
+}
+
+.block {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    line-height: 24px;
+    box-sizing: content-box;
+    transition: ease-in-out 0.7s;
+}
+
+.main-content {
+    overflow-x: hidden;
+}
+
+.main__slogan {
+    width: 40%;
+    box-sizing: content-box;
+}
+
+.main__image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__info {
+    float: right;
+    text-align: justify;
+    width: 50%;
+}
+
+.main__about-game {
+    clear: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.main__image {
+    height: 500px;
+}
+
+.main__about-image {
+    width: 100%
+}
+
+.about__hd {
+    margin-right: 3%;
+    transition: all ease-in-out 0.5s;
+}
+
+.about__dlc {
+    margin-top: 2%;
+    transition: all ease-in-out 1.5s;
+}
+
+.about {
+    width: 37%;
+    text-align: center;
+}
+
+.about__weapon {
+    text-align: left;
+    margin: 20px auto;
+    width: 45%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.weapon__text {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+
+.weapon__list {
+    margin-top: 10px;
+    position: absolute;
+    transition: ease-in-out 0.4s;
+}
+
+.about__screens {
+    transition: all ease-in-out 1s;
+}
